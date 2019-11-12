@@ -1,0 +1,48 @@
+h3 {
+    margin-top:15px;
+}
+.bg-niko {
+    background-image: linear-gradient(45deg, #8C0000, #EC001D);
+    color:#fff;
+}
+input[type=radio] {
+    display: none;
+}
+input[type=radio]+label {
+    border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+input[type=radio]:checked+label {
+    background-color: #fff;
+    color: #9c0005;
+}
+.form-group {
+    margin-top: 15px;
+}
+.bg-niko input[type="text"], .bg-niko select, .bg-niko input[type="number"],.bg-niko input[type="email"], .bg-niko input[type="tel"] {
+    background: none;
+    color: #fff;
+    border-color: #fff;
+}
+.bg-niko input[type="text"]::placeholder, .bg-niko input[type="number"]::placeholder,.bg-niko input[type="email"]::placeholder, .bg-niko input[type="tel"]::placeholder {
+    color: #fff;
+    font-weight: 200;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #28a745;
+    background-color: #28a745;
+}
+.btn-niko {
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: max-content;
+    margin-bottom:25px;
+}
+table {
+    margin: 25px 0;
+}
